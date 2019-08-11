@@ -1,0 +1,10 @@
+\\popup("tested constant")
+
+v1 = "tested variable..."
+popup(v1)
+->popup("tested nested constant popup")
+->v1 = "tested nested variable"
+->popup(v1)
+
+
+

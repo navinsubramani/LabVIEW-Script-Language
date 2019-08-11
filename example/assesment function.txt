@@ -1,0 +1,7 @@
+v1 = "tested variable..."
+->v2 = "tested 1 indent variable....?"
+->popup(v2)
+->popup(v1)
+popup(v1)
+->popup(v1)
+->popup(v2)
