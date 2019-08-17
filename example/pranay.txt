@@ -1,4 +1,4 @@
 a=1
 b=2
-c=add(a+b)
-print(c)
+c1=add(a+b)
+print(c1)
