@@ -9,4 +9,4 @@ LSL framework has all basic building blocks to create a simple to complex script
 Developers can also leverage the API exposed to create a custom script editor interface.
 
 # Custom Development
-Framework offers capablities to develop plugins to accomplish the custom functionalities for the porjects.
+Framework offers capablities to develop plugins to accomplish the custom functionalities for the projects.
