@@ -8,7 +8,9 @@ print(randomnumber() + 4)
 
 print(randomnumber() + randomnumber())
 
-wait(randomnumber())
+\\wait(randomnumber())
 
 print(randomnumber() + 1 * 2)
+
+print(popuprespond("Testing reponse","print True","print False") || False)
 

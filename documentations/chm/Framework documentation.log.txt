@@ -1,0 +1,10 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling e:\Repository\LabVIEW Script Language\documentations\chm\Framework documentation.chm
+
+Assignment Statement.html
+HHC5003: Error: Compilation failed while compiling HTML File Extension - What is an .html file and how do I open it_.html.
+
+
+The following files were not compiled:
+HTML File Extension - What is an .html file and how do I open it_.html
