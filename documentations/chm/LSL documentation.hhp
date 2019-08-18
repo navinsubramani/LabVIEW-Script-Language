@@ -1,0 +1,26 @@
+
+[INFOTYPES]
+
+[OPTIONS]
+Auto Index=No
+Binary Index=Yes
+Binary TOC=No
+Compatibility=1.1 or later
+Compiled File=Framework documentation.chm
+Contents File=Framework documentation.hhc
+Index File=Framework documentation.hhk
+Error log file=Framework documentation.log.txt
+Full-text search=Yes
+Language=0x409 English (United States)
+Title=LSL Documentation
+Default Topic=Assignment Statement.html
+Default Window=
+Default Font=Arial, 9, 000
+Create CHI file=No
+Full text search stop list file=
+Display compile notes=Yes
+Display compile progress=Yes
+
+[FILES]
+Assignment Statement.html
+HTML File Extension - What is an .html file and how do I open it_.html
