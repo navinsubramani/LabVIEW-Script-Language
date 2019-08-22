@@ -1,9 +1,9 @@
 print("first function...")
-popuprespond("Second function...","True","False")
+getbool("Second function...","True","False")
 print(randomstring())
 
 print(" ")
 
-print(popuprespond("Variable test",randomstring(),"print False") && False)
+print(getbool("Variable test",randomstring(),"print False") && False)
 
-print(popuprespond("Variable 1","True","False") && popuprespond("Variable 2","True","False"))
+print(getbool(getstring(),"True","False") && getbool(getstring(),"True","False"))
