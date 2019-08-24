@@ -1,17 +1,12 @@
+print("while loop....")
+
 i=0
-j=0
-print("initial values is:")
-print(i)
-print("")
-while(i<=9)
-->while(j<=9)
-->->i=i+1
-->->j=j+1
-->->print(strmerge(str(i),str(j)))
+while(i<11)
+->print(i)
+->i++
 
 print("")
+print("for loop....")
 
-y=0
-for(x=0;x>=y;x=x+1)
-->y=y-1
-->print(strmerge(str(x),str(y)))
+for(x=0,y=0;x<11;x++,y++)
+->print(x*y)
