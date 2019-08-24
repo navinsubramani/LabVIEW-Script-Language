@@ -2,7 +2,11 @@ Microsoft HTML Help Compiler 4.74.8702
 
 Compiling e:\Repository\LabVIEW Script Language\documentations\chm\Framework documentation.chm
 
+Statements.html
 Assignment Statement.html
+Arithmetic Functions.html
+Addition.html
+Subtract.html
 HHC5003: Error: Compilation failed while compiling HTML File Extension - What is an .html file and how do I open it_.html.
 
 

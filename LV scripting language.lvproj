@@ -81,7 +81,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0BDCB953-9C36-40D2-9846-A0AADBF962BB}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LSL Script Editor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/exe/LSL script editor/LSL Script Editor.exe</Property>
@@ -95,13 +95,16 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/exe/LSL script editor/support files</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[3].destName" Type="Str">functions list</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/exe/LSL script editor/functions list</Property>
+				<Property Name="Destination[3].destName" Type="Str">Common functions</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/exe/LSL script editor/functions/functions list</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/documentations/logo/lsl icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A62CF21A-D4DE-4D2E-AF21-D4FA827A0689}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FA573BC6-0EDD-482B-AA79-216C3083AFFC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/example/Basic Interface.vi</Property>
@@ -137,7 +140,12 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/source code/LSL components/functions/functions list</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/source code/LSL components/data types</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">Boring Engineer</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LSL Script Editor</Property>
