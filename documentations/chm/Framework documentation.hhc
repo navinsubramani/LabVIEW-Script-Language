@@ -14,13 +14,33 @@
 </OBJECT>
 <UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Default Function List">
+		<param name="Name" value="Programming Function List">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Assignment Statement.html">
-			<param name="Local" value="Assignment Statement.html">
+			<param name="Name" value="Statements.html">
+			<param name="Local" value="Statements.html">
 			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Assignment Statement.html">
+				<param name="Local" value="Assignment Statement.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Arithmetic Functions.html">
+			<param name="Local" value="Arithmetic Functions.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Addition.html">
+				<param name="Local" value="Addition.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Subtract.html">
+				<param name="Local" value="Subtract.html">
+				</OBJECT>
+		</UL>
 	</UL>
 </UL>
 </BODY>

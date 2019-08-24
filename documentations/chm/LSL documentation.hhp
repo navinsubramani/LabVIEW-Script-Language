@@ -22,5 +22,9 @@ Display compile notes=Yes
 Display compile progress=Yes
 
 [FILES]
+Statements.html
 Assignment Statement.html
+Arithmetic Functions.html
+Addition.html
+Subtract.html
 HTML File Extension - What is an .html file and how do I open it_.html
