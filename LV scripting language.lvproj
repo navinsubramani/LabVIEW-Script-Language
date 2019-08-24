@@ -10,8 +10,26 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="documentations" Type="Folder" URL="../documentations">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="documentations" Type="Folder">
+			<Item Name="chm" Type="Folder">
+				<Item Name="Addition.html" Type="Document" URL="../documentations/chm/Addition.html"/>
+				<Item Name="Arithmetic Functions.html" Type="Document" URL="../documentations/chm/Arithmetic Functions.html"/>
+				<Item Name="Assignment Statement.html" Type="Document" URL="../documentations/chm/Assignment Statement.html"/>
+				<Item Name="Framework documentation.chm" Type="Document" URL="../documentations/chm/Framework documentation.chm"/>
+				<Item Name="Framework documentation.hhc" Type="Document" URL="../documentations/chm/Framework documentation.hhc"/>
+				<Item Name="Framework documentation.hhk" Type="Document" URL="../documentations/chm/Framework documentation.hhk"/>
+				<Item Name="Framework documentation.log.txt" Type="Document" URL="../documentations/chm/Framework documentation.log.txt"/>
+				<Item Name="LSL documentation.hhp" Type="Document" URL="../documentations/chm/LSL documentation.hhp"/>
+				<Item Name="Statements.html" Type="Document" URL="../documentations/chm/Statements.html"/>
+				<Item Name="Subtract.html" Type="Document" URL="../documentations/chm/Subtract.html"/>
+			</Item>
+			<Item Name="logo" Type="Folder">
+				<Item Name="logo creator.pptx" Type="Document" URL="../documentations/logo/logo creator.pptx"/>
+				<Item Name="Logo.png" Type="Document" URL="../documentations/logo/Logo.png"/>
+				<Item Name="lsl icon.ico" Type="Document" URL="../documentations/logo/lsl icon.ico"/>
+			</Item>
+			<Item Name="Scenerios and Known Issues.docx" Type="Document" URL="../documentations/Scenerios and Known Issues.docx"/>
+			<Item Name="Scripting Language Design Doc.docx" Type="Document" URL="../documentations/Scripting Language Design Doc.docx"/>
 		</Item>
 		<Item Name="example" Type="Folder" URL="../example">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -20,6 +38,23 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="niDCPower Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Close.vi"/>
+				<Item Name="niDCPower Configure Current Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Level.vi"/>
+				<Item Name="niDCPower Configure Current Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Limit.vi"/>
+				<Item Name="niDCPower Configure Output Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Output Enabled.vi"/>
+				<Item Name="niDCPower Configure Voltage Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level.vi"/>
+				<Item Name="niDCPower Configure Voltage Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit.vi"/>
+				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
+				<Item Name="niDCPower Initialize With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize With Channels.vi"/>
+				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
+				<Item Name="niDCPower Measure.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Measure.vi"/>
+				<Item Name="niDCPower Measurement Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Measurement Type.ctl"/>
+				<Item Name="niDMM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Close.vi"/>
+				<Item Name="niDMM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Initialize.vi"/>
+				<Item Name="niDMM IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM IVI Error Converter.vi"/>
+				<Item Name="niDMM Read.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Read.vi"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -64,6 +99,12 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="nidcpower_32.dll" Type="Document" URL="nidcpower_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nidmm_32.dll" Type="Document" URL="nidmm_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
