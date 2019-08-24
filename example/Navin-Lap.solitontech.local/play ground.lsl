@@ -1,7 +1,6 @@
 i=0
 j=0
-print(strmerge("na","vin"))
-print(strmerge(str(i), str(j), str(j)))
+print(str(i++)+str(j--))
 
 
 \\print(isempty(""))
