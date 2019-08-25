@@ -85,16 +85,34 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
+				<Item Name="NI Skyline Configuration AMQP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Configuration/Configuration AMQP_class/NI Skyline Configuration AMQP.lvclass"/>
+				<Item Name="NI Skyline Configuration HTTP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Configuration/Configuration HTTP_class/NI Skyline Configuration HTTP.lvclass"/>
+				<Item Name="NI Skyline Configuration Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Configuration/HTTP/NI Skyline Configuration Library.lvlib"/>
+				<Item Name="NI Skyline Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Configuration/Configuration_class/NI Skyline Configuration.lvclass"/>
+				<Item Name="NI Skyline Message AMQP (Async).lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/AMQP/NI Skyline Message AMQP (Async).lvclass"/>
+				<Item Name="NI Skyline Message AMQP (Sync).lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/AMQP/NI Skyline Message AMQP (Sync).lvclass"/>
+				<Item Name="NI Skyline Message HTTP Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Message/HTTP/NI Skyline Message HTTP Library.lvlib"/>
+				<Item Name="NI Skyline Message HTTP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/HTTP Wrapper/NI Skyline Message HTTP.lvclass"/>
+				<Item Name="NI Skyline Message Library Path.vi" Type="VI" URL="/&lt;vilib&gt;/Skyline/Message/AMQP/NI Skyline Message Library Path.vi"/>
+				<Item Name="NI Skyline Message Sync.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/sync/NI Skyline Message Sync.lvclass"/>
+				<Item Name="NI Skyline Message.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/NI Skyline Message.lvclass"/>
+				<Item Name="NI Skyline Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Utilities/NI Skyline Utilities.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
@@ -195,6 +213,106 @@
 				<Property Name="TgtF_productName" Type="Str">LSL Script Editor</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7C44E287-13F4-40DA-B3A6-F1E6B35E6387}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LSL Script Editor.exe</Property>
+			</Item>
+			<Item Name="LSL Script Editor - SystemLink" Type="EXE">
+				<Property Name="App_INI_aliasGUID" Type="Str">{0560F994-DFF7-4506-BB3B-DE58761C11B1}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BE9D1A4F-CE49-47C3-9D2B-6CE4A7508A61}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D66B360C-78AA-4937-ACD8-457192E17547}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LSL Script Editor - SystemLink</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/exe/LSL Script Editor - SystemLink</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{71FC4EAE-3AAD-4085-ADC5-31807298FD83}</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">LSL Script Editor - SystemLink.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/exe/LSL Script Editor - SystemLink/LSL Script Editor - SystemLink.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/exe/LSL Script Editor - SystemLink/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].destName" Type="Str">support files</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/exe/LSL Script Editor - SystemLink/support files</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[3].destName" Type="Str">Common functions</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/exe/LSL Script Editor - SystemLink/functions/functions list</Property>
+				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[4].destName" Type="Str">instrument io</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/exe/LSL Script Editor - SystemLink/functions/instrument io</Property>
+				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/documentations/logo/lsl icon.ico</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2EF22CFE-AF9A-4AE1-9B88-00D224097BD9}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/example/Basic Interface.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/source code/LSL components</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/source code/support files</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/source code/ui containers</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/source code/utilities</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/source code/LSL components/functions/functions list</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/source code/LSL components/data types</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/source code/LSL components/functions/instrument io</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/example/SL Basic Interface.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="TgtF_companyName" Type="Str">Boring Engineer</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LSL Script Editor</Property>
+				<Property Name="TgtF_internalName" Type="Str">LSL Script Editor</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Navin Subramani</Property>
+				<Property Name="TgtF_productName" Type="Str">LSL Script Editor</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E89FB9EC-58C6-48A5-B1B8-9B173DB6D9C4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LSL Script Editor - SystemLink.exe</Property>
 			</Item>
 		</Item>
 	</Item>
