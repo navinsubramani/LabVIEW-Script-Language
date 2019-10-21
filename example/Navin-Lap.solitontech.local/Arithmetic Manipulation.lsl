@@ -1,7 +1,7 @@
 variable = 1 + 2 + 6
 print(variable)
 
-variable = 1 - 2 - 6
+variable = (1 - 2) - 6
 print(variable)
 
 variable = (1 - 2) + 6
@@ -10,20 +10,20 @@ print(variable)
 variable = 1 * 2 * 6
 print(variable)
 
-a = gettick()
+# a = gettick()
 
-\\variable = (1 - 2) - (7-8) + (7/3.5) * 5 + (5+5) / 6 * 2 -1
+#variable = (1 - 2) - (7-8) + (7/3.5) * 5 + (5+5) / 6 * 2 -1
 print(variable)
 
-print("time taken is : "+str((gettick()-a)))
+# print("time taken is : "+str((gettick()-a)))
 
-print(randomnumber())
+# print(randomnumber())
 
-\\the operation works from right to left
-variable = 1 / 2 / 6
+#the operation works from right to left
+variable = (1 / 2 )/ 6
 print(variable)
 
-\\combination of operation
+#combination of operation
 
 variable = 1 + 2 * 6 / 2
 print(variable)
@@ -34,12 +34,22 @@ print(variable)
 variable = 1 / 2 + 6 / 2
 print(variable)
 
-variable = 1 / 2 - 6 * 2 + 6.5
+variable = ((1 / 2) - (6 * 2)) + 6.5
 print(variable)
 
-i=0
-print(i++)
-print(i--)
+# i=0
+# print(i++)
+# print(i--)
 
-variable = 1 - 2 - 6 * 2 + 6.5
+variable = ((1 - 2) - (6 * 2)) + 6.5
 print(variable)
+
+variable = 4%3
+print(variable)
+print(4%4)
+print(4%5)
+print(4%2)
+
+print(4**2)
+
+print(4//2)

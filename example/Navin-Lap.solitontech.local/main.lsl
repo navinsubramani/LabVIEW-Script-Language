@@ -1,8 +1,5 @@
-variable1 = "First Value"
-print(variable1)
-
-variable1 = 1
-print(variable1)
-
-variable1 = True
-print(variable1)
+a = 4%3
+print(a)
+print(4%4)
+print(4%5)
+print(4%2)

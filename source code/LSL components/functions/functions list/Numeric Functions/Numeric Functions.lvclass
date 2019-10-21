@@ -72,6 +72,15 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
+	<Item Name="SmartSyntax to FormatString.vi" Type="VI" URL="../SmartSyntax to FormatString.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(&gt;!!!!$A![1(!!(A!!'RF/&gt;7VF=GFD)%:V&lt;G.U;7^O=SZM&gt;G.M98.T!"2/&gt;7VF=GFD)%:V&lt;G.U;7^O=S"J&lt;A!!"!!!!$J!=!!?!!!&lt;'5ZV&lt;76S;7-A2H6O9X2J&lt;WZT,GRW9WRB=X-!&amp;5ZV&lt;76S;7-A2H6O9X2J&lt;WZT)'^V&gt;!!11$$`````"F.U=GFO:Q!!&amp;E!Q`````QV'&lt;X*N981A5X2S;7ZH!!^!!Q!*6G&amp;S;7&amp;C&lt;'5D!"R!1!!"`````Q!$$F:B=GFB9GRF=S"/97VF!!"$!0%!!!!!!!!!!2:49W&amp;O)&amp;.Z&lt;H2B?#"'&lt;X*N981O9X2M!#2!5!!$!!1!"1!'%F.D97YA5XFO&gt;'&amp;Y)%:P=GVB&gt;!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!#!!*!!I4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;!!!Q!)!!E!#AFF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!%!!1!#!!-!"Q!"!!%!!1!"!!M!!1!"!!%!$!-!!1A!!*)!!!!!!!!!!!!!!!!!!!#.!!!##!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 	<Item Name="Supported Smart Syntax Representation.vi" Type="VI" URL="../Supported Smart Syntax Representation.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!#Q!W1(!!(A!!'RF/&gt;7VF=GFD)%:V&lt;G.U;7^O=SZM&gt;G.M98.T!"".:8.T97&gt;F)&amp;"P=(6Q)'FO!!!%!!!!.E"Q!"Y!!"M:4H6N:8*J9S"'&gt;7ZD&gt;'FP&lt;H-O&lt;(:D&lt;'&amp;T=Q!2476T=W&amp;H:3"1&lt;X"V=#"P&gt;81!%%!Q`````Q:4?7ZU98A!!#Z!1!!"`````Q!$)&amp;.N98*U)&amp;.Z&lt;H2B?#"3:8"S:8.F&lt;H2B&gt;'FP&lt;C"-;8.U!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!&amp;!!9!"R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!5!"A!(#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!1!%!!%!!1!"!!%!#!!"!!%!!1!*!A!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

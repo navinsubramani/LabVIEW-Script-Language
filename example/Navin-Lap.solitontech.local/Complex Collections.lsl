@@ -4,6 +4,6 @@ print(randomstring())
 
 print(" ")
 
-print(getbool("Variable test",randomstring(),"print False") && False)
+#print(getbool("Variable test",randomstring(),"print False") && False)
 
-print(getbool(getstring(),"True","False") && getbool(getstring(),"True","False"))
+#print(getbool(getstring(),"True","False") && getbool(getstring(),"True","False"))

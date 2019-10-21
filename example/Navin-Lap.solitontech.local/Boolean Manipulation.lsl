@@ -1,31 +1,38 @@
-\\Boolean Manipulations
+print("bool bitwise Manipulations")
 
-var = True && False
+var = True & False
+print(var)
+var = True & True
+print(var)
+var = True | False
+print(var)
+var = (True & False) ^ True
 print(var)
 
-var = True && True
+print("")
+print("numeric bitwise Manipulations")
+
+var1 = 1
+var2 = 2
+print(var1 & var2)
+print(var1 | var2)
+print(var1 ^ var2)
+
+print("")
+print("bool Manipulations")
+
+var = True and False
 print(var)
-
-var = False && True
+var = True and True
 print(var)
-
-var = False && False
+var = True or False
 print(var)
-
-var = True || False
+var = (True and False) xor True
 print(var)
+print(not(var))
 
-var = (True && False) || False
-print(var)
+print("")
+print("other functions")
 
-var = True && False || False
-print(var)
+print(randombool())
 
-print(!var)
-
-\\Boolean Comparision
-
-var1=12
-var2=12
-
-print(var1==var2)
