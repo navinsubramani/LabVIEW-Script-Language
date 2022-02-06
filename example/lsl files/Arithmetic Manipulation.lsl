@@ -19,11 +19,11 @@ print(variable)
 
 # print(randomnumber())
 
-#the operation works from right to left
+# the operation works from right to left
 variable = (1 / 2 )/ 6
 print(variable)
 
-#combination of operation
+# combination of operation
 
 variable = 1 + 2 * 6 / 2
 print(variable)
