@@ -56,47 +56,47 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Compilation Message to String.vi" Type="VI" URL="../../source code/LSL components/common/function utils/Compilation Message to String.vi"/>
-			<Item Name="Convert SmartSyntax to FormatString.vi" Type="VI" URL="../../source code/LSL components/common/function utils/Convert SmartSyntax to FormatString.vi"/>
-			<Item Name="Create Function with Line Number.vi" Type="VI" URL="../../source code/LSL components/common/line and indent/Create Function with Line Number.vi"/>
-			<Item Name="Datatype Comparision.vi" Type="VI" URL="../../source code/LSL components/data types/Datatype Comparision.vi"/>
-			<Item Name="Datatype.ctl" Type="VI" URL="../../source code/LSL components/data types/Datatype.ctl"/>
-			<Item Name="Filter Empty Lines.vi" Type="VI" URL="../../source code/LSL components/common/line and indent/Filter Empty Lines.vi"/>
-			<Item Name="Filter Line with Prefix.vi" Type="VI" URL="../../source code/LSL components/common/line and indent/Filter Line with Prefix.vi"/>
-			<Item Name="Find Line Indent.vi" Type="VI" URL="../../source code/LSL components/common/line and indent/Find Line Indent.vi"/>
-			<Item Name="Function Indent Combo.ctl" Type="VI" URL="../../source code/LSL components/common/line and indent/Function Indent Combo.ctl"/>
-			<Item Name="GetValueType.vi" Type="VI" URL="../../source code/LSL components/common/variable utils/GetValueType.vi"/>
-			<Item Name="Is freestatement.vi" Type="VI" URL="../../source code/LSL components/common/freestatement utils/Is freestatement.vi"/>
-			<Item Name="Is1DArray.vi" Type="VI" URL="../../source code/LSL components/data types/Is1DArray.vi"/>
-			<Item Name="Is2DArray.vi" Type="VI" URL="../../source code/LSL components/data types/Is2DArray.vi"/>
-			<Item Name="IsBool.vi" Type="VI" URL="../../source code/LSL components/data types/IsBool.vi"/>
-			<Item Name="IsNumeric.vi" Type="VI" URL="../../source code/LSL components/data types/IsNumeric.vi"/>
-			<Item Name="IsString.vi" Type="VI" URL="../../source code/LSL components/data types/IsString.vi"/>
-			<Item Name="IsValidVariable.vi" Type="VI" URL="../../source code/LSL components/common/variable utils/IsValidVariable.vi"/>
-			<Item Name="Line Details.ctl" Type="VI" URL="../../source code/LSL components/common/line and indent/Line Details.ctl"/>
-			<Item Name="LSL.lvlib" Type="Library" URL="../../source code/LSL components/LSL.lvlib"/>
-			<Item Name="Open CHM documentation.vi" Type="VI" URL="../../source code/utilities/support files/Open CHM documentation.vi"/>
-			<Item Name="PainOutputTerminal.lvclass" Type="LVClass" URL="../../source code/LSL components/output terminal/Plain OT/PainOutputTerminal.lvclass"/>
-			<Item Name="Remove Constant Array.vi" Type="VI" URL="../../source code/LSL components/common/function utils/Remove Constant Array.vi"/>
-			<Item Name="Remove Constant Strings.vi" Type="VI" URL="../../source code/LSL components/common/function utils/Remove Constant Strings.vi"/>
-			<Item Name="Remove Duplicate Keys.vi" Type="VI" URL="../../source code/LSL components/common/function utils/Remove Duplicate Keys.vi"/>
-			<Item Name="Replace SubFunctions.vi" Type="VI" URL="../../source code/LSL components/common/function utils/Replace SubFunctions.vi"/>
-			<Item Name="Scan from Function.vi" Type="VI" URL="../../source code/LSL components/common/function utils/Scan from Function.vi"/>
-			<Item Name="Scan Syntax Format.ctl" Type="VI" URL="../../source code/LSL components/common/function utils/Scan Syntax Format.ctl"/>
-			<Item Name="SetValueType.vi" Type="VI" URL="../../source code/LSL components/common/variable utils/SetValueType.vi"/>
-			<Item Name="sp_String to 1D String.vi" Type="VI" URL="../../source code/utilities/string parser/sp_String to 1D String.vi"/>
-			<Item Name="Split as Parent Child pair.vi" Type="VI" URL="../../source code/LSL components/common/line and indent/Split as Parent Child pair.vi"/>
-			<Item Name="Validate_message.ctl" Type="VI" URL="../../source code/LSL components/common/function utils/Validate_message.ctl"/>
-			<Item Name="Validate_MessageStatus.ctl" Type="VI" URL="../../source code/LSL components/common/function utils/Validate_MessageStatus.ctl"/>
-			<Item Name="Value String to Details.vi" Type="VI" URL="../../source code/LSL components/common/function utils/Value String to Details.vi"/>
-			<Item Name="Valuetype.ctl" Type="VI" URL="../../source code/LSL components/common/variable utils/Valuetype.ctl"/>
-			<Item Name="Var to Boolean 1D.vi" Type="VI" URL="../../source code/LSL components/data types/Variant to Data/Var to Boolean 1D.vi"/>
-			<Item Name="Var to Boolean 2D.vi" Type="VI" URL="../../source code/LSL components/data types/Variant to Data/Var to Boolean 2D.vi"/>
-			<Item Name="Var to Numeric 1D.vi" Type="VI" URL="../../source code/LSL components/data types/Variant to Data/Var to Numeric 1D.vi"/>
-			<Item Name="Var to Numeric 2D.vi" Type="VI" URL="../../source code/LSL components/data types/Variant to Data/Var to Numeric 2D.vi"/>
-			<Item Name="Var to String 1D.vi" Type="VI" URL="../../source code/LSL components/data types/Variant to Data/Var to String 1D.vi"/>
-			<Item Name="Var to String 2D.vi" Type="VI" URL="../../source code/LSL components/data types/Variant to Data/Var to String 2D.vi"/>
-			<Item Name="Variant to Datatype.vi" Type="VI" URL="../../source code/LSL components/data types/Variant to Datatype.vi"/>
+			<Item Name="Compilation Message to String.vi" Type="VI" URL="../../../source code/LSL components/common/function utils/Compilation Message to String.vi"/>
+			<Item Name="Convert SmartSyntax to FormatString.vi" Type="VI" URL="../../../source code/LSL components/common/function utils/Convert SmartSyntax to FormatString.vi"/>
+			<Item Name="Create Function with Line Number.vi" Type="VI" URL="../../../source code/LSL components/common/line and indent/Create Function with Line Number.vi"/>
+			<Item Name="Datatype Comparision.vi" Type="VI" URL="../../../source code/LSL components/data types/Datatype Comparision.vi"/>
+			<Item Name="Datatype.ctl" Type="VI" URL="../../../source code/LSL components/data types/Datatype.ctl"/>
+			<Item Name="Filter Empty Lines.vi" Type="VI" URL="../../../source code/LSL components/common/line and indent/Filter Empty Lines.vi"/>
+			<Item Name="Filter Line with Prefix.vi" Type="VI" URL="../../../source code/LSL components/common/line and indent/Filter Line with Prefix.vi"/>
+			<Item Name="Find Line Indent.vi" Type="VI" URL="../../../source code/LSL components/common/line and indent/Find Line Indent.vi"/>
+			<Item Name="Function Indent Combo.ctl" Type="VI" URL="../../../source code/LSL components/common/line and indent/Function Indent Combo.ctl"/>
+			<Item Name="GetValueType.vi" Type="VI" URL="../../../source code/LSL components/common/variable utils/GetValueType.vi"/>
+			<Item Name="Is freestatement.vi" Type="VI" URL="../../../source code/LSL components/common/freestatement utils/Is freestatement.vi"/>
+			<Item Name="Is1DArray.vi" Type="VI" URL="../../../source code/LSL components/data types/Is1DArray.vi"/>
+			<Item Name="Is2DArray.vi" Type="VI" URL="../../../source code/LSL components/data types/Is2DArray.vi"/>
+			<Item Name="IsBool.vi" Type="VI" URL="../../../source code/LSL components/data types/IsBool.vi"/>
+			<Item Name="IsNumeric.vi" Type="VI" URL="../../../source code/LSL components/data types/IsNumeric.vi"/>
+			<Item Name="IsString.vi" Type="VI" URL="../../../source code/LSL components/data types/IsString.vi"/>
+			<Item Name="IsValidVariable.vi" Type="VI" URL="../../../source code/LSL components/common/variable utils/IsValidVariable.vi"/>
+			<Item Name="Line Details.ctl" Type="VI" URL="../../../source code/LSL components/common/line and indent/Line Details.ctl"/>
+			<Item Name="LSL.lvlib" Type="Library" URL="../../../source code/LSL components/LSL.lvlib"/>
+			<Item Name="Open CHM documentation.vi" Type="VI" URL="../../../source code/utilities/support files/Open CHM documentation.vi"/>
+			<Item Name="PainOutputTerminal.lvclass" Type="LVClass" URL="../../../source code/LSL components/output terminal/Plain OT/PainOutputTerminal.lvclass"/>
+			<Item Name="Remove Constant Array.vi" Type="VI" URL="../../../source code/LSL components/common/function utils/Remove Constant Array.vi"/>
+			<Item Name="Remove Constant Strings.vi" Type="VI" URL="../../../source code/LSL components/common/function utils/Remove Constant Strings.vi"/>
+			<Item Name="Remove Duplicate Keys.vi" Type="VI" URL="../../../source code/LSL components/common/function utils/Remove Duplicate Keys.vi"/>
+			<Item Name="Replace SubFunctions.vi" Type="VI" URL="../../../source code/LSL components/common/function utils/Replace SubFunctions.vi"/>
+			<Item Name="Scan from Function.vi" Type="VI" URL="../../../source code/LSL components/common/function utils/Scan from Function.vi"/>
+			<Item Name="Scan Syntax Format.ctl" Type="VI" URL="../../../source code/LSL components/common/function utils/Scan Syntax Format.ctl"/>
+			<Item Name="SetValueType.vi" Type="VI" URL="../../../source code/LSL components/common/variable utils/SetValueType.vi"/>
+			<Item Name="sp_String to 1D String.vi" Type="VI" URL="../../../source code/utilities/string parser/sp_String to 1D String.vi"/>
+			<Item Name="Split as Parent Child pair.vi" Type="VI" URL="../../../source code/LSL components/common/line and indent/Split as Parent Child pair.vi"/>
+			<Item Name="Validate_message.ctl" Type="VI" URL="../../../source code/LSL components/common/function utils/Validate_message.ctl"/>
+			<Item Name="Validate_MessageStatus.ctl" Type="VI" URL="../../../source code/LSL components/common/function utils/Validate_MessageStatus.ctl"/>
+			<Item Name="Value String to Details.vi" Type="VI" URL="../../../source code/LSL components/common/function utils/Value String to Details.vi"/>
+			<Item Name="Valuetype.ctl" Type="VI" URL="../../../source code/LSL components/common/variable utils/Valuetype.ctl"/>
+			<Item Name="Var to Boolean 1D.vi" Type="VI" URL="../../../source code/LSL components/data types/Variant to Data/Var to Boolean 1D.vi"/>
+			<Item Name="Var to Boolean 2D.vi" Type="VI" URL="../../../source code/LSL components/data types/Variant to Data/Var to Boolean 2D.vi"/>
+			<Item Name="Var to Numeric 1D.vi" Type="VI" URL="../../../source code/LSL components/data types/Variant to Data/Var to Numeric 1D.vi"/>
+			<Item Name="Var to Numeric 2D.vi" Type="VI" URL="../../../source code/LSL components/data types/Variant to Data/Var to Numeric 2D.vi"/>
+			<Item Name="Var to String 1D.vi" Type="VI" URL="../../../source code/LSL components/data types/Variant to Data/Var to String 1D.vi"/>
+			<Item Name="Var to String 2D.vi" Type="VI" URL="../../../source code/LSL components/data types/Variant to Data/Var to String 2D.vi"/>
+			<Item Name="Variant to Datatype.vi" Type="VI" URL="../../../source code/LSL components/data types/Variant to Datatype.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
