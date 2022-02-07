@@ -1,5 +1,4 @@
-a = 4%3
-print(a)
-print(4%4)
-print(4%5)
-print(4%2)
+i = 0
+while i<10:
+    print(i)
+    i = i+1
