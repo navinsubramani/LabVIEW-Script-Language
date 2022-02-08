@@ -26,3 +26,5 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Questions and Answers
 Please post your questions in the [Issue tab](https://github.com/navinsubramani/LabVIEW-Script-Language/issues). [Pranay](https://github.com/pranay001) or [Navin](https://github.com/navinsubramani) will respond to you.
+
+Blog: [labview-script-interpreter/](https://boringengineer.com/2022/02/06/labview-script-interpreter/)
