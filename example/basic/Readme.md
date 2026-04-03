@@ -14,8 +14,12 @@ __NOTE: BELOW WORKS ONLY IN THE COMMIT MADE ON APRIL 3, 2026__
 - This can be achieved by `creating a inherited child class for script manager`, that is specific to you project.
 - Just `override the Instantiate method` in your inherited script manager class, and instead of dynamically loading the function classes from folders, `you can statically instantiate all the function classes` so that they are compiled into the executable and available at runtime without needing to load them from external folders.
 
-Reference this example:
+Inherited Child Script Manager Class:
 ![alt text](screenshot_inherited_from_scriptmanager.png)
+
+How it is Instantiated:
+![alt text](image.png)
+
 
 ## Test Case
 - I have used the `LSL Example.lvproj` --> `Basic Interface.vi` to test this approach.
