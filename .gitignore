@@ -16,3 +16,8 @@
 *.lvlps
 example/Python Files/
 build/
+
+
+# recursive build folder ignore
+**/build/
+**/builds/
