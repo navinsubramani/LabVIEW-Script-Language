@@ -18,7 +18,7 @@ Inherited Child Script Manager Class:
 ![alt text](screenshot_inherited_from_scriptmanager.png)
 
 How it is Instantiated:
-![alt text](image.png)
+![alt text](screenshot_instantiating_scriptmanager_child.png)
 
 
 ## Test Case
